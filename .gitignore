@@ -6,7 +6,7 @@
 *.local
 *.log
 /.vscode/
-/docs/.vitepress/cache
+.vitepress/cache
 dist
 dist-ssr
 explorations
