@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "我的项目"
-  text: "A VitePress Site"
+  text: "测试是否成功部署"
   tagline: My great project tagline
   actions:
     - theme: brand
