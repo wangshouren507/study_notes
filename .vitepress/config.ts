@@ -141,9 +141,15 @@ export default defineConfig({
       prev: '上一页',
       next: '下一页'
     },
+    search: {
+      provider: 'local'
+    },
     editLink: {
-      pattern: 'https://github.com/wangshouren507/study_notes/master/src/:path',
+      pattern: 'https://github.com/wangshouren507/study_notes/edit/master/src/:path',
       text: '在github上进行编辑'
     },
-  }
+  },
+  markdown: {
+    lineNumbers: true, // 显示代码块行号
+  },
 })
