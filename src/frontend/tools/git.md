@@ -1,4 +1,4 @@
-# git 常用命令。
+# git
 
 ## 创建SSH Key
 ```shell

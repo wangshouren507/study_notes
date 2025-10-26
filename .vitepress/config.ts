@@ -5,7 +5,7 @@ export default defineConfig({
   base: '/study_notes/',
   title: "浩然随风",
   // titleTemplate: "长乐未央",
-  description: "心之所往，行之所至",
+  description: "个人博客",
   srcDir: 'src',
   themeConfig: {
     logo: '/logo.png',
@@ -77,9 +77,10 @@ export default defineConfig({
           text: '工具',
           collapsed: true,
           items: [
-            { text: 'git', link: '/frontend//tools/git' },
-            { text: 'markdown', link: '/frontend//tools/markdown' },
-            { text: 'vscode', link: '/frontend//tools/vscode' },
+            { text: 'npm', link: '/frontend/tools/npm' },
+            { text: 'git', link: '/frontend/tools/git' },
+            { text: 'markdown', link: '/frontend/tools/markdown' },
+            { text: 'vscode', link: '/frontend/tools/vscode' },
           ]
         },
         {

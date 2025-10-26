@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "我的项目"
-  text: "测试是否成功部署"
-  tagline: My great project tagline
+  name: "知行合一"
+  text: "心之所往，行之所至"
+  tagline: 希望每天能产出一篇文章
   actions:
     - theme: brand
       text: Markdown Examples
