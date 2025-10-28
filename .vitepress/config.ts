@@ -62,6 +62,23 @@ export default defineConfig({
           ]
         },
         {
+          text: '工具',
+          collapsed: true,
+          items: [
+            { text: 'npm', link: '/frontend/tools/npm' },
+            { text: 'git', link: '/frontend/tools/git' },
+            { text: 'markdown', link: '/frontend/tools/markdown' },
+            { text: 'vscode', link: '/frontend/tools/vscode' },
+          ]
+        },
+        {
+          text: '库',
+          collapsed: true,
+          items: [
+            { text: '脚手架', link: '/frontend/library/scaffold/' },
+          ]
+        },
+        {
           text: '小程序',
           collapsed: true,
           items: [
@@ -73,16 +90,7 @@ export default defineConfig({
           items: [
           ]
         },
-        {
-          text: '工具',
-          collapsed: true,
-          items: [
-            { text: 'npm', link: '/frontend/tools/npm' },
-            { text: 'git', link: '/frontend/tools/git' },
-            { text: 'markdown', link: '/frontend/tools/markdown' },
-            { text: 'vscode', link: '/frontend/tools/vscode' },
-          ]
-        },
+
         {
           text: '性能优化',
           collapsed: true,

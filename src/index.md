@@ -5,13 +5,13 @@ layout: home
 hero:
   name: "知行合一"
   text: "心之所往，行之所至"
-  tagline: 希望每天能产出一篇文章
+  tagline: 日更
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 日更
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 日更
       link: /api-examples
 
 features:
