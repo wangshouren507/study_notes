@@ -148,7 +148,7 @@ my-cli create demo -f
 
 ------
 
-## 六、`fs-extra` —— 文件系统增强版
+## `fs-extra` —— 文件系统增强版
 
 ### 用途
 
