@@ -69,6 +69,7 @@ export default defineConfig({
             { text: 'git', link: '/frontend/tools/git' },
             { text: 'markdown', link: '/frontend/tools/markdown' },
             { text: 'vscode', link: '/frontend/tools/vscode' },
+            { text: 'nvm', link: '/frontend/tools/nvm' },
           ]
         },
         {
