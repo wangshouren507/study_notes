@@ -41,6 +41,7 @@ export default defineConfig({
           text: 'TypeScript',
           collapsed: true,
           items: [
+            { text: '珠峰', link: '/frontend/ts/zhufeng' },
           ]
         },
         {
