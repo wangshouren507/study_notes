@@ -78,6 +78,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '脚手架', link: '/frontend/library/scaffold/' },
+            { text: 'rollup', link: '/frontend/library/rollup/' },
           ]
         },
         {
