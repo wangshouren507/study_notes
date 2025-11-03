@@ -60,6 +60,7 @@ export default defineConfig({
           text: 'Node',
           collapsed: true,
           items: [
+            { text: 'crypto', link: '/frontend/node/crypto' },
           ]
         },
         {
