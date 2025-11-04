@@ -42,6 +42,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '珠峰', link: '/frontend/ts/zhufeng' },
+            { text: '杂谈', link: '/frontend/ts/other' },
           ]
         },
         {
