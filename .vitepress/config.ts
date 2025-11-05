@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { getSidebar } from 'vitepress-plugin-auto-sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,7 +16,8 @@ export default defineConfig({
     },
     nav: [
       { text: '前端', link: '/frontend/' },
-      { text: '博客', link: '/markdown-examples' }
+      { text: '博客', link: '/markdown-examples' },
+      { text: '珠峰', link: '/zhufeng/0.api' },
     ],
     sidebar: {
       '/frontend/': [
@@ -136,7 +138,8 @@ export default defineConfig({
 
           ]
         }
-      ]
+      ],
+      '/zhufeng/': getSidebar({ contentRoot: '/src', contentDirs: ['zhufeng'], collapsible: true, collapsed: false }),
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/wangshouren507/study_notes' }
