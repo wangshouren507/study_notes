@@ -1,6 +1,15 @@
 import { defineConfig } from 'vitepress'
 import { getSidebar } from 'vitepress-plugin-auto-sidebar'
 
+// 自然排序函数
+function naturalSort(a, b) {
+  return a.text.localeCompare(b.text, undefined, { numeric: true, sensitivity: 'base' })
+}
+
+const sidebarItems = getSidebar({ contentRoot: '/src', contentDirs: ['zhufeng'], collapsible: true, collapsed: false })
+
+sidebarItems[0].items.sort(naturalSort)
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/study_notes/',
@@ -139,7 +148,7 @@ export default defineConfig({
           ]
         }
       ],
-      '/zhufeng/': getSidebar({ contentRoot: '/src', contentDirs: ['zhufeng'], collapsible: true, collapsed: false }),
+      '/zhufeng/': sidebarItems,
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/wangshouren507/study_notes' }
