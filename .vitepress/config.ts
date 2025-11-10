@@ -12,6 +12,7 @@ sidebarItems[0].items.sort(naturalSort)
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true,
   base: '/study_notes/',
   title: "浩然随风",
   // titleTemplate: "长乐未央",
