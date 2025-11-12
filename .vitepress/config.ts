@@ -26,7 +26,7 @@ export default defineConfig({
     },
     nav: [
       { text: '前端', link: '/frontend/' },
-      { text: '博客', link: '/markdown-examples' },
+      { text: '博客', link: '/blog/' },
       { text: '珠峰', link: '/zhufeng/0.api' },
     ],
     sidebar: {
